@@ -1,5 +1,5 @@
 # reading-DeepDive
-모던 리액트 Deep Dive 책 스터디
+[모던 리액트 Deep Dive](https://product.kyobobook.co.kr/detail/S000210725203) 책 스터디
 
 # How To
 - 일주일 간 함께 공부할 분량을 정하고, 학습 내용을 정리
