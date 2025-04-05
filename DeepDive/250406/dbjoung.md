@@ -2,14 +2,15 @@
 
 - React는 2011년 페이스북의 뉴스피드 페이지에서 처음 선보였다.
 - 전자정부 표준 프레임워크의 프런트엔드 개발 도구로 채택된 바 있다. 정부에서 담당하는 프로젝트는 항상 안정성과 유지보수성을 최우선으로 살피기 때문에, React가 그만큼 안정성이 확보됐으며 많은 이들이 널리 쓰고 있음을 시사한다.
-  - https://github.com/eGovFramework/egovframe-template-simple-react?tab=readme-ov-file
-- https://trends.stackoverflow.co/?tags=java,c,python,c%23,vb.net,javascript,assembly,php,perl,ruby,swift,r,objective-c 에서는 stackoverflow에서 키워드 별 등록된 질문들의 통계를 확인할 수 있다. 아래는 2025년 기준 FE 라이브러리 관련 질문 통계다.
-  ![image.png](attachment:cf12477d-f38f-4dc5-bf68-d350ef7b756e:image.png)
+  - [egovframe-template-simple-react
+    ](https://github.com/eGovFramework/egovframe-template-simple-react?tab=readme-ov-file)
+- [Stackoverflow Tag Trends](https://trends.stackoverflow.co/?tags=java,c,python,c%23,vb.net,javascript,assembly,php,perl,ruby,swift,r,objective-c) 에서는 stackoverflow에서 키워드 별 등록된 질문들의 통계를 확인할 수 있다. 아래는 2025년 기준 FE 라이브러리 관련 질문 통계다.
+  ![Most popular technologies img](https://github.com/user-attachments/assets/20aa16be-cb6b-4f86-b2f2-d5b422248b47)
 - https://survey.stackoverflow.co/2024/technology#most-popular-technologies-webframe 에서도 `Most popular technologies` 파트에서 2024년에 인기있었던 web framework 리스트를 확인할 수 있다.
-  ![2022년 통계 (책)](attachment:46928ad8-a72a-460b-805b-4d8abdbbac2a:image.png)
-  2022년 통계 (책)
-  ![2024년 통계 (스터디)](attachment:9b39feb4-1a27-434c-a814-dd9f058b588e:image.png)
-  2024년 통계 (스터디)
+  <p>
+    <img src="https://github.com/user-attachments/assets/bbc37395-dba8-4b8c-98bc-fefb28fde246" width="200"/>
+    <img src="https://github.com/user-attachments/assets/f814ac50-b0e0-4be9-8dd8-5bafc885de65" width="200"/>
+  </p>
 
 ### 왜 리액트는 지난 몇 년간 많은 개발자들이 선호하는 라이브러리가 됐을까?
 
@@ -21,27 +22,29 @@
     - 뷰의 변화가 컴포넌트에 영향을 미칠 수도, 반대로 컴포넌트의 상태가 변경되면 뷰의 상태도 변할 수 있다.
     - 단방향 바인딩이 제공할 수 없는 편리함을 제공하지만, 코드의 규모가 커질수록 상태의 변화가 무엇으로 인해 일어났는지 파악하기 어려워진다.
   - 단방향 바인딩
+
     - 리액트의 상태 변화는 단방향으로, 그리고 명시적으로 이루어진다.
     - 상태가 변화했다면 그 상태 변화를 명시적으로 일으키는 함수만 찾으면 돼 상태 변화의 원인 파악이 쉽다. 리액트의 이러한 명시적인 상태 업데이트는 많은 개발자들에게 간단함과 유연함을 제공한다.
     - 하지만 항상 변화를 감지하고 업데이트하는 코드를 매번 작성해야 하며, 이에 따라 코드의 규모가 증가하는 등의 단점이 있다.
     <aside>
     💁‍♀️
-    
+
     데이터 바인딩(Data Binding) 이란?
-    
-    사용자에게 보여지는 화면(View)과 브라우저 메모리에 있는 데이터(Model)를 연결해서(Binding) 서로 간의 데이터를 동기화하는 것을 의미한다. 
-    
+
+    사용자에게 보여지는 화면(View)과 브라우저 메모리에 있는 데이터(Model)를 연결해서(Binding) 서로 간의 데이터를 동기화하는 것을 의미한다.
+
     <Front End에서의 Model과 View>
-    
+
     - Model : 자바스크립트 변수, 객체 등 브라우저 메모리에 존재하는 실제 데이터
     - View : HTML 요소, 즉 사용자가 보는 화면
     - Binding : 이 둘을 연결해 한 쪽이 바뀌면 다른 한 쪽도 자동으로 바뀌게 하는 것.
     </aside>
 
-
 1. JSX (JavaScript XML)
+
    - Angular는 뷰를 표현하기 위해 문자열 템플릿(string template)을 사용한다. 그리고 Angular 디렉티브라는 Angular 전용 문법을 익혀야 했다.
    - 하지만 React는 HTML에 JS문법을 더한 JSX를 사용하는데, 이는 기존에 알고 있는 JS 문법에 HTML을 약간 기미한 수준이다.
+
      ```html
      // Angular
      <div *ngIF="condition">Content to render when condition is true.</div>
@@ -50,6 +53,7 @@
      <div>Content to render when condition is true.</div>
      : null}
      ```
+
 2. 비교적 배우기 쉽고 간결
    - 앞서 이야기한 두 가지 특징이 결합되어 리액트는 처음 접하는 사람들도 빠르게 웹페이지를 구축할 수 있는 낮은 진입장벽을 가지게 되었다. 하지만 라이브러리를 완벽히 이해하고 성능을 최적화하는 것은 상대적으로 어려운 축에 속한다.
    - Vue나 Svelte 같은 프레임워크와 비교했을 때 프레임워크를 자유자제로 다루기까지 드는 시간과 노력을 고려한다면 React는 비교적 난이도가 있는 편이다.
