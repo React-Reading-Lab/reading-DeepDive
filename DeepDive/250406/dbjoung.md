@@ -7,9 +7,10 @@
 - [Stackoverflow Tag Trends](https://trends.stackoverflow.co/?tags=java,c,python,c%23,vb.net,javascript,assembly,php,perl,ruby,swift,r,objective-c) 에서는 stackoverflow에서 키워드 별 등록된 질문들의 통계를 확인할 수 있다. 아래는 2025년 기준 FE 라이브러리 관련 질문 통계다.
   ![Most popular technologies img](https://github.com/user-attachments/assets/20aa16be-cb6b-4f86-b2f2-d5b422248b47)
 - https://survey.stackoverflow.co/2024/technology#most-popular-technologies-webframe 에서도 `Most popular technologies` 파트에서 2024년에 인기있었던 web framework 리스트를 확인할 수 있다.
+  - 좌측 : 2022년 통계 (책) / 우측 : 2024년 통계
   <p>
-    <img src="https://github.com/user-attachments/assets/bbc37395-dba8-4b8c-98bc-fefb28fde246" width="200"/>
-    <img src="https://github.com/user-attachments/assets/f814ac50-b0e0-4be9-8dd8-5bafc885de65" width="200"/>
+    <img src="https://github.com/user-attachments/assets/bbc37395-dba8-4b8c-98bc-fefb28fde246" width="400"/>
+    <img src="https://github.com/user-attachments/assets/f814ac50-b0e0-4be9-8dd8-5bafc885de65" width="400"/>
   </p>
 
 ### 왜 리액트는 지난 몇 년간 많은 개발자들이 선호하는 라이브러리가 됐을까?
@@ -18,6 +19,7 @@
 
 - 리액트는 `단방향 바인딩`만 지원한다.
 - `단방향 바인딩`이란, 말 그대로 데이터의 흐름이 한쪽으로만 간다는 것이다. 이와 반대되는 용어는 Anglar의 `양방향 바인딩` 이다.
+
   - 양방향 바인딩
     - 뷰의 변화가 컴포넌트에 영향을 미칠 수도, 반대로 컴포넌트의 상태가 변경되면 뷰의 상태도 변할 수 있다.
     - 단방향 바인딩이 제공할 수 없는 편리함을 제공하지만, 코드의 규모가 커질수록 상태의 변화가 무엇으로 인해 일어났는지 파악하기 어려워진다.
