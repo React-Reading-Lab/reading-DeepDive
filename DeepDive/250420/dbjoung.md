@@ -1038,7 +1038,7 @@ export default function App() {
 
 위 코드를 실행한 후 개발자 도구 Components 탭에서 다음과 같은 결과를 볼 수 있다.
 
-<img src="https://github.com/user-attachments/assets/b80267af-1eff-475b-8c08-fcc0a5993038" width="400" />
+<img src="https://github.com/user-attachments/assets/b80267af-1eff-475b-8c08-fcc0a5993038" width="600px" />
 
 - `useDebugValue`는 사용자 정의 훅 내부의 내용에 대한 정보를 남길 수 있는 훅이다.
 - 두 번째 인수로 포매팅 함수를 전달하면 **이에 대한 값이 변경됐을 때만 호출되어 포매팅된 값을 노출**한다.
