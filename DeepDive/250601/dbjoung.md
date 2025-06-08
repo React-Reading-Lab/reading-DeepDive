@@ -27,7 +27,7 @@ Components 탭에서는 현재 리액트 앱의 컴포넌트 트리를 확인할
 
 Components의 왼쪽 영역은 해당 리액트 페이지의 **컴포넌트 트리**를 나타낸다. 이름 그대로 트리 구조로 구성돼 있으며, 리액트 앱 전체의 트리 구조를 한 눈에 보여준다.
 
-<img src="https://github.com/user-attachments/assets/56229130-97e6-4397-a43a-7491b3e29d20" width="600px" />
+<img src="https://github.com/user-attachments/assets/24def38e-638d-4052-9ece-5c5eeb9118c2" width="600px" />
 
 - 상단 입력란에서는 **정규식** 등을 활용해 검색할 수 있다.
 
@@ -73,7 +73,7 @@ export default () => {
 
 위 예제를 실행하면 Component 탭에서 다음과 같이 확인할 수 있다.
 
-<img src="https://github.com/user-attachments/assets/93511fca-b1a2-4822-aa8c-8e1b3292c8f7" width="600px" />
+<img src="https://github.com/user-attachments/assets/1f94a9fb-5d09-4032-9f4e-2fc7d2e9d75c" width="600px" />
 
 **기명 함수로 선언되어 컴포넌트명을 알 수 있다면 해당 컴포넌트명**을 보여주고, 만약 **익명 함수로 선언돼 있다면 Anonymous라는 이름으로 컴포넌트**를 보여준다.
 
@@ -127,7 +127,7 @@ export default function App() {
 }
 ```
 
-<img src="https://github.com/user-attachments/assets/a26913ba-5de9-4be3-acfc-ef309f948c34" width="600px" />
+<img src="https://github.com/user-attachments/assets/821fab77-5f24-4c42-b504-82d6d3b9e10e" width="600px" />
 
 함수를 기명함수로 바꾸기 어려운 경우에는 함수에 `displayName` 속성을 추가하는 방법도 있다. 
 
@@ -147,7 +147,7 @@ MemoizedComponent.displayName = '메모 컴포넌트입니다.'
 
 왼쪽 패널이 컴포넌트 트리였다면, 오른쪽에서는 해당 컴포넌트에 대한 자세한 정보가 주어진다.
 
-<img src="https://github.com/user-attachments/assets/41be4b54-58ac-4de9-ab2c-845dde82554c" width="600px" />
+<img src="https://github.com/user-attachments/assets/836fa4cd-d9de-4a82-8255-1f62bf15ae19" width="600px" />
 
 - <1> 컴포넌트명과 Key
     - 컴포넌트명과 해당 컴포넌트의 Key 값을 확인할 수 있다. 회색 영역이 Key 이다.
@@ -282,7 +282,7 @@ export default function App() {
 
 - 프로파일링 메뉴 : 리액트가 렌더링할 때 어떠한 일이 벌어지는 지 확인할 수 있는 도구다.
     
-    ![image.png](attachment:48cb6c4d-d77e-4f97-a0f4-0f0cb7a54037:image.png)
+    <img src="https://github.com/user-attachments/assets/fdfab0e7-655f-4e17-a71b-4d1d13382d91" width="600px" />
     
     - Start Profiling(프로파일링 시작) : 프로파일링이 시작된다. 시작된 후 적색 동그라미로 바뀌며, 프로파일링 중이라는 메시지가 나타난다. 다시 누르면 프로파일링이 중단되고 결과가 나타난다.
     - Reload and Start profiling(새로고침 후 프로파일링 시작) : 첫 번째 버튼과 유사하지만, 웹페이지가 새로고침되면서 이와 동시에 프로파일링이 시작된다. 프로파일링 중단은 Start Profiling처럼 빨간 버튼을 클릭한다.
@@ -297,7 +297,7 @@ export default function App() {
         - 렌더링이 일어난 컴포넌트의 렌더링 정보, 해당 컴포넌트가 렌더링된 이유, 전체 렌더링에서 소요된 시간
     - 오른쪽에는 해당 커밋과 관련된 추가적인 정보를 확인할 수 있다.
         
-        ![image.png](attachment:ab189576-d2ca-400d-a1fa-5b4fb5e96513:image.png)
+        <img src="https://github.com/user-attachments/assets/36e4a346-125c-4aec-87fe-ece151341b09" width="600px" />
         
     - 렌더링되지 않은 컴포넌트는 회색으로 표시되며 `Did not render` 라는 메시지가 표시된다. 이를 활용하면 개발자가 의도한 대로 메모이제이션이 작동하고 있는지, 혹은 특정 상태 변화에 따라 렌더링이 의도한 대로 제한적으로 발생하고 있는지 확인하는데 많은 도움을 얻을 수 있다.
     - 바는 **노란색에 가까울수록 렌더링에 오래 걸린 컴포넌트이며, 녹색에 가까울수록 빠르게 렌더링된 컴포넌트다. 회색으로 표시된 컴포넌트는 아예 렌더링되지 않은 컴포넌트다.**
@@ -323,9 +323,11 @@ export default function App() {
     - 위에서 `APP` 클랙해 들어가면 `Hooks 1 changed` 라는 문구가 보인다. 이는 첫 번째 훅으로 인해 렌더링이 실행된다는 것을 의미한다. App의 첫 번째 훅을 확인하기 위해 컴포넌트 메뉴로 이동해서 App의 hooks를 보면, 1000 값이 들어가있는 1번 훅을 볼 수 있다.
         
         
-        ![image.png](attachment:233a5599-f0aa-42aa-8d99-2aa50648b9e7:image.png)
-        
-        ![image.png](attachment:7ca3a78c-c552-4d71-8be7-820acb1adbe1:image.png)
+        <p float="left">
+        <img src="https://github.com/user-attachments/assets/f1a11fdf-4c3b-45fc-8434-00f45e2c0195" width="300" />
+        <img src="https://github.com/user-attachments/assets/d74ca551-3409-4204-834d-8363ee1b387e" width="300" />
+        </p>
+
         
 
 ## 정리
@@ -385,7 +387,7 @@ export default function App() {
 
 - 이는 debugger를 선언하는 것과 동일한 역할을 하지만 코드를 오염시키지 않으므로 더 유용하다.
     
-    ![image.png](attachment:39330d72-c8a8-4963-a5c5-04c5ca8b5eaf:image.png)
+    <img src="https://github.com/user-attachments/assets/a0c0b463-3afd-4bc2-b25d-3b02fc59d0ee" width="600px" />
     
     - 감시 : 감시하고 싶은 변수를 선언하고, 해당 변수의 정보를 확인할 수 있다. 감시로 확인할 수 없는 값은 <not available>로 표시되는 것을 볼 수 있다.
     - 중단점 : 현재 웹사이트에서 추가한 중단점을 확인할 수 있다. **현재 열려 있는 파일뿐만 아니라 웹페이지 전체에 걸쳐 소스탭에서 추가한 모든 중단점**을 확인할 수 있다.
@@ -402,7 +404,7 @@ export default function App() {
 
 - HTTP 요청부터 웹 소켓에 이르기까지, 웹페이지가 외부 데이터와 통신하는 정보를 확인하고 싶다면 네트워크 탭을 참조해라.
 
-![image.png](attachment:f3022d52-e3b7-4859-9741-d164f56106fd:image.png)
+<img src="https://github.com/user-attachments/assets/04af96f8-46bc-4b93-bc9b-895d99ef53f1" width="600px" />
 
 - 상단에는 네트워크 탭과 관련된 다양한 메뉴를 확인할 수 있다. `전체`, `Fetch/XHR` , `JS` 등의 탭으로 보고 싶은 네트워크 요청 종류를 필터링할 수 있으며, 기타 다른 체크박스를 선택해 보고 싶은 네트워크 종류를 제한할 수 있다.
 - 왼쪽의 리스트는 실제 해당 페이지를 불러오는 과정에서 발생한 네트워크 요청이다. 페이지가 로딩되는 과정을 대략적으로 확인해 볼 수도 있다.
@@ -435,7 +437,7 @@ export default function App() {
 - 여기서 개발자가 디버깅하고 싶은 JS VM 환경을 선택하면 된다.
 - 환경별 힙 크기를 볼 수 있다. 실제 해당 페이지가 JS 힙을 얼마나 점유하고 있는지 나타낸다. 이 크기는 JS 실행에 따라 실시간으로 바뀐다. **이 크기 만큼 사용자의 브라우저에 부담을 주기 때문에 불필요하게 크기가 늘어나지 않는지** 눈여겨볼 필요가 있다.
 
-![image.png](attachment:29771085-08ed-4b69-b1c2-a37ad05d3190:image.png)
+<img src="https://github.com/user-attachments/assets/492777a3-1c60-4cff-a5b5-6a5e9e8e81c1" width="600px" />
 
 ### 힙 스냅샷
 
@@ -472,7 +474,7 @@ export default function App() {
 
 - 타임라인 할당 계측의 장점은 기간을 좁혀서 확인해 볼 수 있다는 것이다. 상단 그래프에서 검색을 원하는 범위를 좁히면 **해당 기간에 메모리에 할당된 내용만 골라서** 볼 수 있다.
     
-    ![image.png](attachment:9c31df89-0d28-4af6-a07b-547fffd8302e:image.png)
+    <img src="https://github.com/user-attachments/assets/8a0644bc-6979-4012-847a-e1a982208753" width="600px" />
     
 - 특정 변수를 우클릭해 `전역 변수로 저장` 을 누르면 해당 변수가 무슨 값을 가지고 있는 객체인지 확인할 수도 있다. 전역 변수로 저장하면 하단 콘솔에서 해당 변수를 확인 가능하다.
 
