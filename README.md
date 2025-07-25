@@ -1,4 +1,29 @@
-# 📚 reading-DeepDive
+
+# 📚 reading-OSTEP
+
+> [운영체제 <아주 쉬운 세 가지 이야기>](https://product.kyobobook.co.kr/detail/S000210725203) 책 기반의 운영체제 스터디
+
+## 🗓️ How We Study
+
+- 매주 공통 분량을 정하여 학습하고, 학습한 내용 관련하여 각자 궁금한 내용에 대해 추가 학습 진행
+- **매주 일요일 오후 5시** 발표 컨퍼런스를 진행합니다.
+  - 주 1회 발표
+  - 각자 15분 분량으로 발표 준비
+- 정리된 내용은 모든 구성원이 레포에 push합니다.
+  - 📁 Deep Dive 스터디 파일명: `OSTEP/날짜명/깃허브ID.md` (예: `DeepDive/250331/dbjoung.md`)
+  - 📝 커밋 컨벤션:
+    - `Create_날짜 내용` (예: `Create_250331 1장 학습`)
+    - `Update_날짜 내용` (예: `Update_250331 추가 메모 정리`)
+
+### 발표자
+- 각자 15분 분량으로 한 주 간의 학습 내용을 발표 자료로 만들어 옵니다.
+- 일요일 오후 5시에 모여 발표합니다. 
+
+---
+---
+
+# 📚 reading-DeepDive (완료 : 2025년 7월 18일)
+
 > [모던 리액트 Deep Dive](https://product.kyobobook.co.kr/detail/S000210725203) 책 기반의 프론트엔드 스터디
 
 > React 공식 문서 스터디
