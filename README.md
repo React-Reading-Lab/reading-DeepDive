@@ -1,7 +1,7 @@
 
 # 📚 reading-OSTEP
 
-> [운영체제 <아주 쉬운 세 가지 이야기>](https://product.kyobobook.co.kr/detail/S000210725203) 책 기반의 운영체제 스터디
+> [운영체제 <아주 쉬운 세 가지 이야기>](https://github.com/remzi-arpacidusseau/ostep-translations/tree/master/korean#ostep-korean-version) 책 기반의 운영체제 스터디
 
 ## 🗓️ How We Study
 
