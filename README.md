@@ -3,7 +3,7 @@
 
 > [운영체제 <아주 쉬운 세 가지 이야기>](https://github.com/remzi-arpacidusseau/ostep-translations/tree/master/korean#ostep-korean-version) 책 기반의 운영체제 스터디
 
-## 🗓️ How We Study
+## 🗓️ How to Study
 
 - 매주 공통 분량을 정하여 학습하고, 학습한 내용 관련하여 각자 궁금한 내용에 대해 추가 학습 진행
 - **매주 일요일 오후 5시** 발표 컨퍼런스를 진행합니다.
@@ -27,7 +27,7 @@
 
 > React 공식 문서 스터디
 
-## 🗓️ How We Study
+## 🗓️ How to Study
 
 - 매주 공통 학습 분량을 정하고, 각자 내용을 정리합니다.
   - Issue에 발표자 및 학습 범위를 기록
